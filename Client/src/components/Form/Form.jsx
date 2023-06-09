@@ -18,7 +18,7 @@ const Form = (props) => {
   };
 
   return (
-    <div>
+    <div className={styles.loginBox}>
       <form onSubmit={handleSubmit}>
         {/* USERNAME */}
         <label htmlFor="">Email</label>
